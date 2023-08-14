@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .card-zoom{
+        @apply relative flex items-center justify-evenly m-3 overflow-hidden shadow-xl w-60 h-60 rounded-2xl;
+    }
+    .card-zoom-image{
+        @apply absolute w-full h-full transition-all duration-1000 ease-in-out bg-center bg-cover;
+    }
+    .card-zoom-content{
+        @apply absolute flex justify-between items-end space-x-16 transition-all duration-1000 transform translate-y-16 -translate-x-4 scale-105;
+    }
+    .card-zoom-btn{
+        @apply h-12 w-12 rounded-full hidden transition-all duration-1000 ease-in-out
+    }
+    .card-zoom-likes{
+        @apply  hidden
+    }
+    .card-zoom:hover .card-zoom-image {
+        @apply scale-150;
+    }
+    .card-zoom:hover .card-zoom-content .card-zoom-btn{
+        @apply block
+    }
+    .card-zoom:hover .card-zoom-content .card-zoom-likes{
+        @apply block
+    }
+}
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+@layer utilities {
+    .section {
+        @apply absolute left-0 top-0 min-h-screen w-full transform -translate-y-full scale-0 transition-all duration-1000 ease-in-out
+    }
+    .sec{
+        @apply transform translate-y-1 scale-100 hidden
+    }
+    .active{
+        display: block;
+        animation: scaleanim 1s ease-in-out;
+    }
+    .active-btn{
+        display: block;
+        animation: scaleanim 1s ease-in-out;
+        @apply text-yellow-500
+    }
+    @keyframes scaleanim {
+        0%{
+            transform: translateY(-100%) scale(0)
+        }
+        100%{
+            transform: translateY(0) scale(1)
+        }
+    }
+}
+@layer utilities{
+    .volume-slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .volume-slider::-moz-range-thumb{
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .volume-slider::-ms-thumb{
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .volume-slider::-webkit-slider-runnable-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+    }
+    
+    .volume-slider::-moz-range-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+    }
+    
+    .volume-slider::-ms-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+        color: transparent;
+    }
+    
+    .volume-slider::-webkit-progress-value{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+    
+    .volume-slider::-moz-progress-bar{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+    
+    .volume-slider::-ms-fill-lower{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+}
+
+@layer utilities{
+    .progress-slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .progress-slider::-moz-range-thumb{
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .progress-slider::-ms-thumb{
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border: 2px solid #4a5568;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .progress-slider::-webkit-slider-runnable-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+    }
+    
+    .progress-slider::-moz-range-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+    }
+    
+    .progress-slider::-ms-track{
+        height: 6px;
+        background-color: #e2e8f0;
+        border-radius: 6px;
+        color: transparent;
+    }
+    
+    .progress-slider::-webkit-progress-value{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+    
+    .progress-slider::-moz-progress-bar{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+    
+    .progress-slider::-ms-fill-lower{
+        background-color: #4a5568;
+        border-radius: 6px;
+    }
+}
