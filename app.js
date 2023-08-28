@@ -11,8 +11,10 @@ function PageTransition() {
       secBtn.forEach((btn) => {
         if (btn.dataset.id === clickedBtnId) {
           btn.classList.add('active-btn');
+          menuList.classList.add('hidden');
         } else {
           btn.classList.remove('active-btn');
+          // menuList.classList.toggle('hidden')
         }
       });
 
@@ -30,11 +32,16 @@ function PageTransition() {
 PageTransition();
 
 
+const cancelBtn = document.getElementById('cancel');
+const menuList = document.getElementById('menu-list');
+const menuBar = document.getElementById('menu-bar');
 
-// function translateTo(sectionID){
-//   const section = document.getElementById(sectionID);
-//   section.scrollIntoView({behavior: 'smooth'});
-// }
+cancelBtn.addEventListener('click', ()=>{
+  menuList.classList.toggle('hidden')
+})
+menuBar.addEventListener('click', ()=>{
+  menuList.classList.toggle('hidden');
+})
 
 const audioPlayer = document.getElementById('audio-player');
 const playPauseBtn = document.getElementById('play-pause-btn');
