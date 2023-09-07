@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+  <script type="module" crossorigin src="/assets/index.0bf72fed.js"></script>
+  <link rel="stylesheet" href="/assets/index.ee78b4c7.css">
+</head>
+<body class="bg-slate-700 no-scrollbar">
+    <header class="flex justify-between items-center w-screen fixed z-50 backdrop-blur-xl p-6 text-lg text-gray-500 h-20">
+        <div class="flex space-x-28 items-center">
+            <button class="outline-none border-none" type="reset">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM7SURBVHgBxZjPThpBHMd/MwyKTQ88wvoEYhoPnIoxpOlJOPbQCI02PbZPID6B9tY0JmCt6RFfwLDGIGlMw/oG+AabVGVhd+fX3ywubRHZZRfjJyHsDrPz+87s/P4MDCKC7VK6787lEKXm3TvO8UK21oGIsDCdlNEbO6kJhjnOE0tA34CgjRmsknzxdQciECjE/vW+jkCGgaUhBK6Uqwsr+zpMCQ/qgACFsCIUjLGPEAEBM4JW7QqQ6QLYMUQgjpBTmr/BEfVE4pnOlvdMiME0Qkwp5U4ChCFEyohrOJaQ1Mr+HsyIar3u7btysWhOKyQWR81mBpG8L5FYYuSF1u2tRvewf3Kiba6tXT2KkGqrpQnEDOPwknZxBugamfI8FS1QeSIwzgFdF1D2F+k2vpBqu5EW1yJDbpvxZ0umtDubA1hw3IwtJNmbb9AomcEdDm1PS2BACwR9EfGIL2QCajO6jgN2z7qyurcHUmLZBrZIr80Y7Tu7yEpGUUr6oOmieykd16DVomD3Wy+vFv+LOd9bLTNQSPdiMycEX0fJ0lK6lxCCvmV5ImjGq0JcG+9GDIdhKESlehuTdcoXOZReC3Ae7s1JckPFVj6vQ0SGQmyZ3CU/y8ET4U252y5pJKIET8hg7Z2UBk+MJyQlLCOoo0QMtXFjCWHLNZMi4sSCJoGJmWXeB4Uo5ni/TKHg4H4XNMmJPiVXvujwiAy9Rq0KfZXsiw815FigAJWmo4IxL57XZl0ETRTiczdzHWbI4dlZjgmxobIyZ2DSJDUIEhI46Pl5gTFcpzXU6LV1gvof/WxtU9ivqADpVQYPpOfQQlTdkbTm63SZ+3scmlxnfGs2SwMRwYTOvklrbncgIjyUIjZC9w3TqdpopKNEXgb390IsIalUKvRJ719oV3TGttNGuUuU5lb+tR5ayJtstkNPj3VhP/PS4Kf3hcDYA7kqlgbPyM9+W/gKjbPJg3Kojf72NpvVafJF2tIdv82xbXD6fSViZyv/quK3h/pbwuew1awwYNueYbKgBiUhJnkGDZp/MAVU2+206HZz/e5NhqK0Kfh1bbRqm0qI4gedWVzXLfR63bSKI5zfHJcjVGSj/AHNJ3KeUMLvlgAAAABJRU5ErkJggg==" class="w-10 h-10" alt="">
+            </button>
+            <div class="hidden md:flex justify-between space-x-4 items-center">
+                <button type="submit" class="outline-none border-none bg-transparent text-lg text-gray-300">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" placeholder="Search" class="outline-none border-none text-gray-300 bg-transparent placeholder:text-gray-300">
+            </div>
+        </div>
+        <button id="menu-bar" class="outline-none border-none bg-transparent text-4xl lg:hidden mr-10 text-gray-300" type="submit">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <main class="main-content min-h-screen m-0 text-white w-screen">
+        <section data-id="home" class="flex flex-col justify-between items-center active sec section min-w-full transition-transform  min-h-screen w-full">
+            <section class="flex p-6 justify-center items-center w-auto mt-16 gap-8 flex-col md:flex-row ">
+                <article class="container md:w-8/12 relative box-border rounded-2xl md:px-10 lg:ml-24 overflow-y-hidden bg-blue-500">
+                    <img src="/assets/Vector.3981365d.svg" class="absolute h-full top-0 right-0 z-0" alt="">
+                    <div class="pl-3 relative h-full w-full flex justify-between">
+                        <div class="text-start">
+                            <h1 class="mb-36 mt-10">Currated playlist</h1>
+                            <div class="">
+                                <h1 class="text-3xl">R & B Hits</h1>
+                                <p>
+                                    All mine, Lie again, Petty call me everyday, Out of time, No love, Bad habit, and so much more. <br>
+                                </p>
+                            </div>
+                            <div class="flex my-8 justify-start gap-16 md:justify-between">
+                                <div class="flex -space-x-2">
+                                    <img src="/assets/person-1.cfb7688f.jpeg" class="h-6 w-6 rounded-full" alt="">
+                                    <img src="/assets/person-2.ab349e3e.jpg" class="h-6 w-6 rounded-full" alt="">
+                                    <img src="/assets/person-3.1e5049e7.jpg" class="h-6 w-6 rounded-full" alt="">
+                                    <img src="/assets/person-4.ee3bbe86.jpg" class="h-6 w-6 rounded-full" alt="">
+                                    <img src="/assets/person-5.12f3ad36.jpg" class="h-6 w-6 rounded-full" alt="">
+                                    <img src="/assets/person-6.8f696e94.jpg" class="h-6 w-6 rounded-full" alt="">
+                                </div>
+                                <h1 class="md:text-xl"><i class="fas fa-heart"></i><span class="ml-3">33k Likes</span></h1>
+                            </div>
+                        </div>
+                        <img src="/assets/Pexels Photo by Eric Esma.50174036.png" class="hidden lg:block" alt="">
+                    </div>
+                </article>
+                <article class="md:w-2/5 container box-border mr-16">
+                    <h1 class="text-3xl ml-12 text-start">Top charts</h1>
+                    <div class="flex w-screen md:w-auto overflow-x-scroll no-scrollbar md:flex-col">
+                        <div class="flex justify-start md:justify-between items-start p-2 rounded-xl box-border flex-nowrap md:w-auto md:h-auto bg-slate-800 md:items-center m-4 mr-0">
+                            <div class="flex w-44 md:w-auto flex-col md:flex-row items-start space-x-4  justify-between">
+                                <img src="/assets/Rectangle 14 (1).b1d176a0.png" class="h-28 w-28 md:h-16 md:w-16 rounded-xl" alt="">
+                                <div>
+                                    <h1 class="">Golden age of 80s</h1>
+                                    <p class="text-slate-500">Sean swadder</p>
+                                    <h1 class="">2:34:45</h1>
+                                </div>
+                            </div>
+                            <div class="flex justify-center container md:my-auto border-2 border-yellow-500 text-xl text-yellow-500 items-center h-10 w-10 rounded-full">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="flex justify-start md:justify-between items-start p-2 rounded-xl box-border flex-nowrap md:w-auto md:h-auto bg-slate-800 md:items-center m-4 mr-0">
+                            <div class="flex w-44 md:w-auto flex-col md:flex-row items-start space-x-4  justify-between">
+                                <img src="/assets/Rectangle 29.15b8bedf.png" class="h-28 w-28 md:h-16 md:w-16 rounded-xl" alt="">
+                                <div>
+                                    <h1 class="">Reggae “n” blues</h1>
+                                    <p class="text-slate-500">Dj YK mule</p>
+                                    <h1 class="">1:02:42</h1>
+                                </div>
+                            </div>
+                            <div class="flex justify-center container my-auto border-2 border-yellow-500 text-xl text-yellow-500 items-center h-10 w-10 rounded-full">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div data-id="tomorrow" class="flex justify-start md:justify-between items-start p-2 rounded-xl box-border flex-nowrap md:w-auto md:h-auto bg-slate-800 md:items-center m-4 mr-0 control cursor-pointer">
+                            <div class="flex w-44 md:w-auto flex-col md:flex-row items-start space-x-4  justify-between">
+                                <img src="/assets/Lead-image.75d93bb5.png" class="h-28 w-28 md:h-16 md:w-16 rounded-xl" alt="">
+                                <div>
+                                    <h1 class="">Tomorrow’s tunes</h1>
+                                    <p class="text-slate-500">Obi Datti</p>
+                                    <h1 class="">2:01:25</h1>
+                                </div>
+                            </div>
+                            <div class="flex justify-center container my-auto border-2 border-yellow-500 text-xl text-yellow-500 items-center h-10 w-10 rounded-full">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="lg:ml-20 my-10 w-auto text-start">
+                <h1 class="text-2xl ml-10 mb-8 ">New releases.</h1>
+                <div class="flex overflow-x-scroll pb-10 no-scrollbar">
+                    <div class="flex flex-nowrap">
+                        <div class="inline-block px-3  rounded-2xl">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-3xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14.1fedeaa3.png" class="w-full h-full  rounded-2xl" alt="">
+                            </div>
+                            <p class="text-gray-300 text-sm mt-1">Life in a bubble</p>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (1).b1d176a0.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Mountain</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (2).38f827a0.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Limit</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (3).af584882.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Everything is blank</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 26 (2).b0a58cb9.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Cancelled</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (5).0a5fbac3.png" class="w-full h-full" alt="">
+                            </div>
+                            <p class="text-gray-300 text-sm mt-1">Nomad</p>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 26 (1).6d1e6951.png" class="w-full h-full" alt="">
+                            </div>
+                            <p class="text-gray-300 text-sm mt-1">Life in a bubble</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lg:ml-20 my-10 w-auto text-start">
+                <h1 class="text-2xl ml-10 mb-8 ">Popular in your area.</h1>
+                <div class="flex overflow-x-scroll pb-10 no-scrollbar">
+                    <div class="flex flex-nowrap">
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14.1fedeaa3.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Life in a bubble</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (1).b1d176a0.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Mountain</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (2).38f827a0.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Limit</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (3).af584882.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Everything is blank</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 26 (2).b0a58cb9.png" class="w-full h-full" alt="">
+                            <p class="text-gray-300 text-sm mt-1">Cancelled</p>
+                            </div>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 14 (5).0a5fbac3.png" class="w-full h-full" alt="">
+                            </div>
+                            <p class="text-gray-300 text-sm mt-1">Nomad</p>
+                        </div>
+                        <div class="inline-block px-3">
+                            <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                                <img src="/assets/Rectangle 26 (1).6d1e6951.png" class="w-full h-full" alt="">
+                            </div>
+                            <p class="text-gray-300 text-sm mt-1">Life in a bubble</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section data-id="tomorrow" class="container flex flex-col space-y-16 bg-lead-image bg-no-repeat bg-cover sec section items-center py-24 m-0 min-w-full min-h-screen">
+            <article class="container flex flex-col md:flex-row md:ml-28 justify-center items-center gap-2">
+                <div class="w-80 h-72">
+                    <img src="/assets/Lead-image.75d93bb5.png" class="h-72 w-full object-cover rounded-3xl" alt="">
+                </div>
+                <div class="container w-auto px-10">
+                    <h1 class="text-3xl font-bold text-gray-200">Tomorrow’s tunes</h1>
+                    <p class="my-3 md:my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nemo excepturi illum magnam suscipit sint mollitia error autem perspiciatis amet!
+                    </p>
+                    <p class="mb-5 md:mb-10">
+                        64 songs ~ 16 hrs+
+                    </p>
+                    <div class="flex justify-start space-x-2 items-center">
+                        <button type="submit" class="bg-slate-500 text-sm hover:scale-x-105 bg-opacity-20 flex items-center py-2 px-4 rounded-full text-white">
+                            <span class="flex justify-center items-center text-sm h-8 w-8 rounded-full bg-yellow-500 text-gray-800 mr-2"><i class="fas fa-play"></i></span> Play all
+                        </button>
+                        <button type="submit" class="bg-slate-500 hover:scale-x-105 bg-opacity-20 text-sm flex items-center py-2 px-4 rounded-full text-white">
+                            <span class="flex justify-center items-center h-8 w-8 rounded-full bg-yellow-500 text-gray-800 mr-2"><i class="fas fa-music"></i></span> Add to collection
+                        </button>
+                        <button type="submit" class="bg-slate-500 text-2xl bg-opacity-20 flex justify-center items-center p-3 hover:scale-x-105 rounded-full text-red-500">
+                            <i class="fas fa-heart"></i><span class="ml-2 md:hidden text-sm text-white">Like</span></button>
+                    </div>
+                </div>
+            </article>
+            <article class="flex flex-col justify-between items-center gap-2 w-screen">
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 26 (2).b0a58cb9.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>Let me love you ~ Krisx</p>
+                            <p>Single</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>4:17</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 29.15b8bedf.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>Watin man go do ~ Burna</p>
+                            <p>African giant</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>2:30</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 26.a248518d.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>Stand strong ~ Davido</p>
+                            <p>Single</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>2:02</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 14 (3).af584882.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>Closa ~ Ybee</p>
+                            <p>Obi datti</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>3:23</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 14.1fedeaa3.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>We found love ~ Rihana</p>
+                            <p>Single</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>3:36</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+                    <div class="flex justify-between items-center space-x-4 ">
+                        <img src="/assets/Rectangle 14 (2).38f827a0.png" alt="" class="rounded-lg h-12 w-12">
+                        <button type="submit" class="text-lg hidden md:block">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="flex justify-between itmes-center w-10/12">
+                        <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
+                            <p>Let me love you ~ Krisx</p>
+                            <p>Single</p>
+                        </div>
+                        <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
+                            <p>4:17</p>
+                            <button type="submit" class="text-lg text-yellow-500">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section data-id="favourite" class="container py-24 min-h-screen  sec section">
+            <div class="flex justify-center md:justify-start space-x-2 items-center pl-24">
+                <button type="submit" class="bg-yellow-500 hover:scale-x-105 py-2 px-4 rounded-full text-gray-700">
+                    My Collection
+                </button>
+                <button type="submit" class="bg-transparent hover:scale-x-105 py-2 px-4 border-gray-400 border-2 rounded-full text-gray-400">
+                    Likes
+                </button>
+            </div>
+            <div class="container lg:ml-24 mt-0 flex justify-center items-center flex-wrap md:flex-row md:justify-start gap-4">
+                <div class="card-zoom">
+                    <div class="card-zoom-image bg-card-1"></div>
+                    <div class="card-zoom-content">
+                        <div class="ml-3">
+                            <h1 class="text-2xl">Limit</h1>
+                            <p class="text-gray-400">John Watts</p>
+                            <p class="card-zoom-likes">33k Likes</p>
+                        </div>
+                        <button type="submit" class=" text-3xl bg-yellow-800 opacity-70 card-zoom-btn text-yellow-500 mr-3">
+                            <i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="card-zoom">
+                    <div class="card-zoom-image bg-card-2"></div>
+                    <div class="card-zoom-content">
+                        <div class="ml-3">
+                            <h1 class="text-2xl">Limit</h1>
+                            <p class="text-gray-400">John Watts</p>
+                            <p class="card-zoom-likes">33k Likes</p>
+                        </div>
+                        <button type="submit" class=" text-3xl bg-yellow-800 opacity-70 card-zoom-btn text-yellow-500 mr-3">
+                            <i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="card-zoom">
+                    <div class="card-zoom-image bg-card-3"></div>
+                    <div class="card-zoom-content">
+                        <div class="ml-3">
+                            <h1 class="text-2xl">Limit</h1>
+                            <p class="text-gray-400">John Watts</p>
+                            <p class="card-zoom-likes">33k Likes</p>
+                        </div>
+                        <button type="submit" class=" text-3xl bg-yellow-800 opacity-70 card-zoom-btn text-yellow-500 mr-3">
+                            <i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="card-zoom">
+                    <div class="card-zoom-image bg-card-4"></div>
+                    <div class="card-zoom-content">
+                        <div class="ml-3">
+                            <h1 class="text-2xl">Limit</h1>
+                            <p class="text-gray-400">John Watts</p>
+                            <p class="card-zoom-likes">33k Likes</p>
+                        </div>
+                        <button type="submit" class=" text-3xl bg-yellow-800 opacity-70 card-zoom-btn text-yellow-500 mr-3">
+                            <i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="hidden fixed py-36 inset-0 justify-between lg:flex flex-col bg-transparent px-4  w-20">
+            <div class="flex flex-col justify-center space-y-8 py-10 items-center bg-slate-800 rounded-full controls">
+                <button  data-id="home" class="flex justify-center text-2xl items-center text-gray-500 control active-btn">
+                    <i class="fas fa-home"></i>
+                </button>
+                <button  data-id="favourite" class="flex justify-center text-2xl items-center text-gray-500 control">
+                    <i class="fas fa-music"></i>
+                </button>
+                <button class="flex justify-center text-2xl items-center text-gray-500">
+                    <i class="fa fa-youtube-play"></i>
+                </button>
+                <button class="flex justify-center text-2xl items-center text-gray-500">
+                    <i class="far fa-user"></i>
+                </button>
+            </div>
+            <div class="flex flex-col justify-center space-y-8 py-10 items-center bg-slate-800 rounded-full">
+                <button class="flex justify-center text-2xl items-center text-gray-500">
+                    <i class="fas fa-user"></i>
+                </button>
+                <button class="flex justify-center text-2xl items-center text-gray-500">
+                    <i class="fas fa-file"></i>
+                </button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- component -->
+    <div id="menu-list" class="hidden fixed inset-0  z-50 w-screen md:max-w-md p-4 bg-gray-800">
+        <ul class="flex flex-col w-full">
+            <li class="my-px flex justify-between">
+                <span class="flex font-medium text-sm text-gray-400 px-4 my-4 uppercase">Menu items</span>
+                <button id="cancel">
+                    <i class="fas fa-times text-gray-400 h-10 w-10"></i>
+                </button>
+            </li>
+            <li class="my-px">
+                <button data-id="home" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700 control">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span class="ml-3">Home</span>
+                </button>
+            </li>
+            <li class="my-px">
+                <button data-id="favourite" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 control hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-music"></i>
+                    </span>
+                    <span class="ml-3">Collections</span>
+                </button>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-share-alt"></i>
+                    </span>
+                    <span class="ml-3">Subscribers</span>
+                    <span class="flex items-center justify-center text-sm text-gray-500 font-semibold bg-gray-300 h-6 px-2 rounded-full ml-auto">501k</span>
+                </a>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-green-400">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                    <span class="ml-3">Add new</span>
+                </a>
+            </li>
+            <li class="my-px">
+                <span class="flex font-medium text-sm text-gray-400 px-4 my-4 uppercase">Account</span>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-user-circle"></i>
+                    </span>
+                    <span class="ml-3">Profile</span>
+                </a>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-user-circle"></i>
+                    </span>
+                    <span class="ml-3">Notifications</span>
+                    <span class="flex items-center justify-center text-sm text-red-500 font-semibold bg-red-300 h-6 px-2 rounded-full ml-auto">10</span>
+                </a>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-gray-500">
+                        <i class="fas fa-cog"></i>
+                    </span>
+                    <span class="ml-3">Settings</span>
+                </a>
+            </li>
+            <li class="my-px">
+                <a href="#" class="flex flex-row items-center h-12 px-4 rounded-lg text-gray-500 hover:bg-gray-700">
+                    <span class="flex items-center justify-center text-lg text-red-400">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <span class="ml-3">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <footer class="fixed bottom-0 left-0 right-0 backdrop-blur-3xl flex justify-start md:justify-evenly px-10 h-32 items-start lg:items-center text-yellow-500 space-x-14">
+        <div class="flex flex-col lg:flex-row justify-start lg:justify-end items-start lg:items-end w-auto gap-4">
+        <audio id="audio-player" class="audio-player" src="./Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3"></audio>
+        <img id="album-artwork" src="/assets/Rectangle 26.a248518d.png" class="h-16 w-16 rounded-2xl" alt="">
+            <div class="text-white">
+                <h1 id="title">Let me love you</h1>
+                <p id="artist" class="text-gray-300">Dj-Snake-Ft-Justin-Bieber</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4 w-4/12">
+            <div class="flex justify-center items-center md:w-auto w-10 space-x-6 md:space-x-12">
+                <button>
+                    <i class="fas fa-stop"></i>
+                </button>
+                <button>
+                    <i class="fas fa-step-backward"></i>
+                </button>
+                <button type="button" id="play-pause-btn" class="p-4 bg-yellow-200 text-yellow-500 rounded-full">
+                    <i id="play" class="fas fa-play"></i>
+                    <i id="pause" class="fas fa-pause hidden"></i>
+                </button>
+                <button>
+                    <i class="fas fa-step-forward"></i>
+                </button>
+                <button>
+                    <i class="fas fa-random"></i>
+                </button>
+            </div>
+            <div class="flex items-center space-x-2">
+                <label for="progress-slider" class="text-yellow-500"></label>
+                <input id="progress-slider" type="range" min="0" max="100" step="0.1" value="0" class="progress-slider w-full">
+            </div>
+        </div>
+        <div class="container lg:flex lg:justify-center lg:items-center hidden gap-4 lg:w-2/12">
+            <div class="flex items-center space-x-2">
+                <label for="volume-slider" class="text-yellow-500">
+                    <i class="fas fa-volume-up h-6 w-6"></i>
+                </label>
+                <input id="volume-slider" type="range" min="0" max="1" step="0.1" value="1" class="w-40 volume-slider">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
