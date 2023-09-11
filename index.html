@@ -26,7 +26,7 @@
         </button>
     </header>
     <main class="main-content min-h-screen m-0 text-white w-screen">
-        <section data-id="home" class="flex flex-col justify-between items-center active sec section min-w-full transition-transform  min-h-screen w-full">
+        <section data-id="home" class="flex flex-col justify-between items-center active sec section min-w-full transition-transform pb-36 min-h-screen w-full">
             <section class="flex p-6 justify-center items-center w-auto mt-16 gap-8 flex-col md:flex-row ">
                 <article class="container md:w-8/12 relative box-border rounded-2xl md:px-10 lg:ml-24 overflow-y-hidden bg-blue-500">
                     <img src="./Musica media/Vector.svg" class="absolute h-full top-0 right-0 z-0" alt="">
@@ -198,7 +198,7 @@
                 </div>
             </section>
         </section>
-        <section data-id="tomorrow" class="container flex flex-col space-y-16 bg-lead-image bg-no-repeat bg-cover sec section items-center py-24 m-0 min-w-full min-h-screen">
+        <section data-id="tomorrow" class="container flex flex-col space-y-16 bg-lead-image bg-no-repeat bg-cover sec section items-center py-24 m-0 min-w-full pb-36 min-h-screen">
             <article class="container flex flex-col md:flex-row md:ml-28 justify-center items-center gap-2">
                 <div class="w-80 h-72">
                     <img src="./Musica media/Lead-image.png" class="h-72 w-full object-cover rounded-3xl" alt="">
@@ -223,8 +223,8 @@
                     </div>
                 </div>
             </article>
-            <article class="flex flex-col justify-between items-center gap-2 w-screen">
-                <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 rounded-xl p-2 hover:scale-x-95">
+            <article class="section-center flex flex-col justify-between items-center gap-2 w-screen">
+                <!-- <div class="flex justify-between items-center bg-slate-500 w-10/12  bg-opacity-20 cursor-pointer rounded-xl p-2 hover:scale-x-95">
                     <div class="flex justify-between items-center space-x-4 ">
                         <img src="./Musica media/Rectangle 26 (2).png" alt="" class="rounded-lg h-12 w-12">
                         <button type="submit" class="text-lg hidden md:block">
@@ -233,7 +233,7 @@
                     </div>
                     <div class="flex justify-between itmes-center w-10/12">
                         <div class="flex flex-col items-start justify-evenly md:items-center md:flex-row w-8/12">
-                            <p>Let me love you ~ Krisx</p>
+                            <p>Let me love you ~ DJ-Snake...</p>
                             <p>Single</p>
                         </div>
                         <div class="flex flex-col-reverse justify-between mx-8 items-end md:items-center md:flex-row w-4/12">
@@ -343,10 +343,10 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </article>
         </section>
-        <section data-id="favourite" class="container py-24 min-h-screen  sec section">
+        <section data-id="favourite" class="container py-24 min-h-screen pb-36 sec section">
             <div class="flex justify-center md:justify-start space-x-2 items-center pl-24">
                 <button type="submit" class="bg-yellow-500 hover:scale-x-105 py-2 px-4 rounded-full text-gray-700">
                     My Collection
@@ -355,8 +355,8 @@
                     Likes
                 </button>
             </div>
-            <div class="container lg:ml-24 mt-0 flex justify-center items-center flex-wrap md:flex-row md:justify-start gap-4">
-                <div class="card-zoom">
+            <div class="collection-container container lg:ml-24 mt-0 flex justify-center items-center flex-wrap md:flex-row md:justify-start gap-4">
+                <!-- <div class="card-zoom">
                     <div class="card-zoom-image bg-card-1"></div>
                     <div class="card-zoom-content">
                         <div class="ml-3">
@@ -403,7 +403,7 @@
                         <button type="submit" class=" text-3xl bg-yellow-800 opacity-70 card-zoom-btn text-yellow-500 mr-3">
                             <i class="fas fa-heart"></i></button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <aside class="hidden fixed z-50 py-36 inset-0 justify-between lg:flex flex-col bg-transparent px-4  w-20">
@@ -514,10 +514,10 @@
     </div>
 
 
-    <footer class="fixed z-20 bottom-0 left-0 right-0 backdrop-blur-3xl flex justify-start md:justify-evenly px-10 h-32 items-start lg:items-center text-yellow-500 space-x-14">
-        <div class="flex flex-col lg:flex-row justify-start lg:justify-end items-start lg:items-end w-auto gap-4">
-        <audio id="audio-player" class="audio-player" src="./Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3"></audio>
-        <img id="album-artwork" src="./Musica media/Rectangle 26.png" class="h-16 w-16 rounded-2xl" alt="">
+    <footer class="fixed z-20 bottom-0 left-0 right-0 backdrop-blur-3xl flex justify-start md:justify-evenly pr-10 pl-5 h-32 items-start lg:items-center text-yellow-500 space-x-14">
+        <div class="flex flex-col lg:flex-row justify-start lg:justify-end items-start lg:items-end gap-4">
+            <audio id="audio-player" class="audio-player" src="./Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3"></audio>
+            <img id="album-artwork" src="./Musica media/Rectangle 26.png" class="h-10 w-10 md:h-16 md:w-16 rounded-2xl" alt="">
             <div class="text-white">
                 <h1 id="title">Let me love you</h1>
                 <p id="artist" class="text-gray-300">Dj-Snake-Ft-Justin-Bieber</p>
@@ -525,20 +525,20 @@
         </div>
         <div class="flex flex-col gap-4 w-4/12">
             <div class="flex justify-center items-center md:w-auto w-10 space-x-6 md:space-x-12">
-                <button>
+                <button class="stop-btn">
                     <i class="fas fa-stop"></i>
                 </button>
-                <button>
+                <button class="prev-btn">
                     <i class="fas fa-step-backward"></i>
                 </button>
                 <button type="button" id="play-pause-btn" class="p-4 bg-yellow-200 text-yellow-500 rounded-full">
                     <i id="play" class="fas fa-play"></i>
                     <i id="pause" class="fas fa-pause hidden"></i>
                 </button>
-                <button>
+                <button class="next-btn">
                     <i class="fas fa-step-forward"></i>
                 </button>
-                <button>
+                <button class="random-btn">
                     <i class="fas fa-random"></i>
                 </button>
             </div>
@@ -557,5 +557,6 @@
         </div>
     </footer>
     <script src="./app.js" type="module"></script>
+    <script src="./filter.js" type="module"></script>
 </body>
 </html>
