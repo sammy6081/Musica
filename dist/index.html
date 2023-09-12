@@ -7,7 +7,7 @@
     <title>Musica</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     
-  <script type="module" crossorigin src="/assets/index.fe7ac7d2.js"></script>
+  <script type="module" crossorigin src="/assets/index.c202d8d1.js"></script>
   <link rel="stylesheet" href="/assets/index.dd4d356c.css">
 </head>
 <body class="bg-slate-700 no-scrollbar">
@@ -516,45 +516,47 @@
     </div>
 
 
-    <footer class="fixed z-20 bottom-0 left-0 right-0 backdrop-blur-3xl flex justify-start md:justify-evenly pr-10 pl-5 h-32 items-start lg:items-center text-yellow-500 space-x-14">
-        <div class="flex flex-col lg:flex-row justify-start lg:justify-end items-start lg:items-end gap-4">
-            <audio id="audio-player" class="audio-player" src="./Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3"></audio>
-            <img id="album-artwork" src="/assets/Rectangle 26.a248518d.png" class="h-10 w-10 md:h-16 md:w-16 rounded-2xl" alt="">
-            <div class="text-white">
-                <h1 id="title">Let me love you</h1>
-                <p id="artist" class="text-gray-300">Dj-Snake-Ft-Justin-Bieber</p>
+    <footer class="fixed z-20 bottom-0 left-0 right-0 backdrop-blur-3xl ">
+        <div class="flex justify-between md:justify-evenly pr-10 pl-5 h-32 items-center lg:items-center text-yellow-500 space-x-14">
+            <div class="flex flex-col lg:flex-row justify-start lg:justify-end items-start lg:items-end gap-4">
+                <audio id="audio-player" class="audio-player" src="./Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3"></audio>
+                <img id="album-artwork" src="/assets/Rectangle 26.a248518d.png" class="h-10 w-10 md:h-16 md:w-16 rounded-2xl" alt="">
+                <div class="text-white">
+                    <h1 id="title">Let me love you</h1>
+                    <p id="artist" class="text-gray-300">Dj-Snake-Ft-Justin-Bieber</p>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col gap-4 w-4/12">
-            <div class="flex justify-center items-center md:w-auto w-10 space-x-6 md:space-x-12">
-                <button class="stop-btn">
-                    <i class="fas fa-stop"></i>
-                </button>
-                <button class="prev-btn">
-                    <i class="fas fa-step-backward"></i>
-                </button>
-                <button type="button" id="play-pause-btn" class="p-4 bg-yellow-200 text-yellow-500 rounded-full">
-                    <i id="play" class="fas fa-play"></i>
-                    <i id="pause" class="fas fa-pause hidden"></i>
-                </button>
-                <button class="next-btn">
-                    <i class="fas fa-step-forward"></i>
-                </button>
-                <button class="random-btn">
-                    <i class="fas fa-random"></i>
-                </button>
+            <div class="flex flex-col gap-4">
+                <div class="flex justify-center items-center md:w-auto w-10 space-x-6 md:space-x-12">
+                    <button class="stop-btn">
+                        <i class="fas fa-stop"></i>
+                    </button>
+                    <button class="prev-btn">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button type="button" id="play-pause-btn" class="p-4 bg-yellow-200 text-yellow-500 rounded-full">
+                        <i id="play" class="fas fa-play"></i>
+                        <i id="pause" class="fas fa-pause hidden"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                    <button class="random-btn">
+                        <i class="fas fa-random"></i>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <label for="progress-slider" class="text-yellow-500"></label>
+                    <input id="progress-slider" type="range" min="0" max="100" step="0.1" value="0" class="progress-slider w-full">
+                </div>
             </div>
-            <div class="flex items-center space-x-2">
-                <label for="progress-slider" class="text-yellow-500"></label>
-                <input id="progress-slider" type="range" min="0" max="100" step="0.1" value="0" class="progress-slider w-full">
-            </div>
-        </div>
-        <div class="container lg:flex lg:justify-center lg:items-center hidden gap-4 lg:w-2/12">
-            <div class="flex items-center space-x-2">
-                <label for="volume-slider" class="text-yellow-500">
-                    <i class="fas fa-volume-up h-6 w-6"></i>
-                </label>
-                <input id="volume-slider" type="range" min="0" max="1" step="0.1" value="1" class="w-40 volume-slider">
+            <div class="container lg:flex lg:justify-center lg:items-center hidden gap-4 lg:w-2/12">
+                <div class="flex items-center space-x-2">
+                    <label for="volume-slider" class="text-yellow-500">
+                        <i class="fas fa-volume-up h-6 w-6"></i>
+                    </label>
+                    <input id="volume-slider" type="range" min="0" max="1" step="0.1" value="1" class="w-40 volume-slider">
+                </div>
             </div>
         </div>
     </footer>
