@@ -1,7 +1,7 @@
 const menu = [
   {
     id: 1,
-    title: "Let me love you ~ DJ-Snake...",
+    title: "Let me love you",
     category: "pop",
     duration: 3.24,
     img: "https://images.unsplash.com/photo-1530076886461-ce58ea8abe24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -10,7 +10,7 @@ const menu = [
   },
   {
     id: 2,
-    title: "who i am",
+    title: "Who I Am",
     category: "hip-hop",
     duration: 2.32,
     img: "https://images.unsplash.com/photo-1593696954577-ab3d39317b97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -19,7 +19,7 @@ const menu = [
   },
   {
     id: 3,
-    title: "hallelujah challenge",
+    title: "Hallelujah challenge",
     category: "gospel",
     duration: 14.21,
     img: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -28,7 +28,7 @@ const menu = [
   },
   {
     id: 4,
-    title: "no longer slaves",
+    title: "No longer slaves",
     category: "gospel",
     duration: 6.13,
     img: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -37,7 +37,7 @@ const menu = [
   },
   {
     id: 5,
-    title: "am i wrong",
+    title: "Am I wrong",
     category: "pop",
     duration: 5.12,
     img: "https://images.unsplash.com/photo-1585020430145-2a6b034f7729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -46,7 +46,7 @@ const menu = [
   },
   {
     id: 6,
-    title: "iya ni wura",
+    title: "Iya ni wura",
     category: "afro-beat",
     duration: 1.45,
     img: "https://images.unsplash.com/photo-1544652406-55174175da25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdGhlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -55,7 +55,7 @@ const menu = [
   },
   {
     id: 7,
-    title: "we found love",
+    title: "We found love",
     category: "pop",
     duration: 3.36,
     img: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvdmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -64,7 +64,7 @@ const menu = [
   },
   {
     id: 8,
-    title: "take my breath away",
+    title: "Take my breath away",
     category: "hip-hop",
     duration: 2.59,
     img: "https://images.unsplash.com/photo-1591280063444-d3c514eb6e13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -73,7 +73,7 @@ const menu = [
   },
   {
     id: 9,
-    title: "jesus onememma",
+    title: "Jesus onememma",
     category: "gospel",
     duration: 4.06,
     img: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -82,7 +82,7 @@ const menu = [
   },
   {
     id: 10,
-    title: "perfect",
+    title: "Perfect",
     category: "pop",
     duration: 4.09,
     img: "https://images.unsplash.com/photo-1627283391728-701007067e7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",

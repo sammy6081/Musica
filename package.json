@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "assets": [
+    "/Musica media/Dj-Snake-Ft-Justin-Bieber-Let-Me-Love-You-via-Naijafinix.com_.mp3",
+    "/Musica media/Anne-Marie-Who-I-Am-via-Naijafinix.com_.mp3",
+    "/Musica media/Nathaniel_Bassey_-_Hallelujah_Challenge_Praise_Medley_CeeNaija.com_.mp3",
+    "/Musica media/No-Longer-Slaves-Bethel-Music.mp3",
+    "/Musica media/Nico-Vinz-Am-I-Wrong.mp3",
+    "/Musica media/Simi_-_Iya_Ni_Wura.mp3",
+    "/Musica media/Rihanna-Ft-Calvin-Harris-We-Found-Love-via-Naijafinix.com_.mp3",
+    "/Musica media/Mercy_Chinwo_Ft_Chioma_Jesus_Onememma_9jaflaver.com_.mp3",
+    "Musica media/Ed-Sheeran-Ft-Beyonce-Perfect-Duet-via-Naijafinix.com_.mp3",
+    "/Musica media/Duncan_Laurence_-_Take_My_Breath_Away.mp3"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +25,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "file-loader": "^6.2.0",
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8",
     "vite": "^3.1.6"
